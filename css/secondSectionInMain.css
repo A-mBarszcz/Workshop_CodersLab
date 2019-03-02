@@ -1,0 +1,78 @@
+.SecondSection{
+    background-color: white;
+    width: 100%;
+    height: 352px;
+    display: flex;
+    flex-direction: row;
+    }
+.PartOne{
+    position: relative;
+    margin: 0;
+}
+.PartOneFirstImage{
+    background-image: url("../images/box1_img.jpg");
+    display: flex;
+    width: 344px;
+    height: 300px;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 22px;
+    left: 68px;
+}
+.Belt1 {
+    background-color: rgba(255,255,255, 0.3);
+    width: 328px;
+    height: 60px;
+    position: absolute;
+    bottom: 112px;
+    left: 72px;
+    padding-top: 12px;
+    padding-left: 14px;
+  }
+.PartTwo{
+    position: relative;
+    margin: 0;
+}
+.PartTwoImage{
+    background-image: url("../images/box2_img.jpg");
+    display: block;
+    width: 344px;
+    height: 300px;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 22px;
+    left: 426px;
+}
+.Belt2 {
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 330px;
+    height: 60px;
+    position: absolute;
+    bottom: 112px;
+    left: 425px;
+    padding-top: 12px;
+    padding-left: 14px;
+}
+
+.PartThree{
+    position: relative;
+    margin: 0;
+}
+.Border{
+    position: absolute;
+    left: 782px;
+    bottom: 70px;
+    border: 1px solid lightgray;
+    width: 340px;
+    height: 254px;
+    padding-top: 30px;
+    padding-left: 23px;
+}
+.PartThreeText{
+    font-size: 15px;
+    padding-top: 12px;
+    line-height: 20px;
+    letter-spacing: -0.6px;
+    clear: both;
+    color: gray;
+}

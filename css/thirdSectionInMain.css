@@ -1,0 +1,284 @@
+.ThirdSection{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 726px;
+    background-color:#F1F1F1;
+}
+.Price{
+    margin: 0;
+    text-align: left;
+    padding-top: 35px;
+    padding-left: 68px;
+    font-size: 20px;
+    letter-spacing: 0.9px;
+    line-height: 40px;
+}
+.UnderlineThirdSection{
+    font-weight: 600;
+    color: grey;
+    border-bottom: 8px solid #1ABC9C;
+    width: 320px;
+    float: left;
+}
+.Tags{
+    margin: 0;
+    position: relative;
+    content: '';
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.Tag1{
+    position: absolute;
+    border: solid 2px #c2c2c2;
+    width: 330px;
+    height: 502px;
+    left: 68px;
+    bottom: -576px;
+    background-color: #f9f9f9;
+}
+.Tag2{
+    position: absolute;
+    border: solid 2px #1ABC9C;
+    width: 330px;
+    height: 502px;
+    left: 428px;
+    bottom: -573px;
+    background-color: #1ABC9C;
+}
+.Tag3{
+    position: absolute;
+    border: solid 2px #c2c2c2;
+    width: 330px;
+    height: 506px;
+    left: 788px;
+    bottom: -576px;
+    background-color: #f9f9f9;
+}
+
+.pierwsze{
+    display: block;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: 2px solid #c2c2c2;
+    background-color: white;
+    position: absolute;
+    top: -42px;
+    right: 134px;
+}
+.drugie{
+    display: block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid #c2c2c2;
+    background-color: #c2c2c2;
+    position: absolute;
+    top: -26px;
+    right: 149px;
+}
+.color{
+    background-color: #1ABC9C;
+    border: 1px solid #1ABC9C;
+}
+.color2{
+    background-color: white;
+    border: 1px solid white;
+}
+.button{
+    background-color: black;
+    width: 150px;
+    height: 40px;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    position: absolute;
+    left: 120px;
+    bottom: 20px;
+}
+.button:hover{
+    background-color: #5b5a5a;
+}
+.Tag1Text{
+    color: #1ABC9C;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 26px;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+}
+.Tag2Text{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 26px;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+}
+.PriceCycle {
+    display: block;
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    border: 2px solid #c2c2c2;
+    position: absolute;
+    left: 98px;
+    top: 78px;
+    background-color: white;
+}
+.Number8{
+    font-size: 45px;
+    font-weight: bold;
+    color: #c2c2c2;
+    position: absolute;
+    left: 30px;
+    top: 25px;
+}
+.Number5{
+    font-size: 45px;
+    font-weight: bold;
+    color: #c2c2c2;
+    position: absolute;
+    left: 60px;
+    top: 23px;
+}
+.Number99{
+    font-size: 15px;
+    font-weight: bold;
+    color: #c2c2c2;
+    position: absolute;
+    left: 83px;
+    top: 28px;
+}
+.PLN{
+    font-size: 15px;
+    color: #c2c2c2;
+    position: absolute;
+    left: 25px;
+    top: 80px;
+    font-weight: 600;
+}
+.Number9 {
+    font-size: 45px;
+    font-weight: bold;
+    color: #c2c2c2;
+    position: absolute;
+    left: 32px;
+    top: 22px;
+}
+
+.colorTag2{
+    color:#1ABC9C ;
+}
+.Number211 {
+    font-size: 45px;
+    font-weight: bold;
+    color: #c2c2c2;
+    position: absolute;
+    left: 18px;
+    top: 26px;
+}
+.LineText1Tag1{
+    color: #8d8d8d;
+    background-color: #e4e4e4;
+    width: 326px;
+    height: 46px;
+    position: absolute;
+    left: 0px;
+    top: 240px;
+    text-align: center;
+    font-size: 23px;
+    padding-top: 6px;
+    letter-spacing: 0.5px;
+}
+.LineText2Tag1{
+    color: #8d8d8d;
+    background-color: #f1f1f1;
+    width: 326px;
+    height: 46px;
+    position: absolute;
+    left: 0px;
+    top: 285px;
+    text-align: center;
+    font-size: 23px;
+    padding-top: 6px;
+    letter-spacing: 0.5px;
+}
+.LineText1Tag2{
+    color: #8d8d8d;
+    background-color: white;
+    width: 326px;
+    height: 46px;
+    position: absolute;
+    left: 0px;
+    top: 240px;
+    text-align: center;
+    font-size: 23px;
+    padding-top: 6px;
+    letter-spacing: 0.5px;
+}
+.LineText3Tag2 {
+    color: #8d8d8d;
+    background-color: white;
+    width: 326px;
+    height: 46px;
+    position: absolute;
+    left: 0px;
+    top: 330px;
+    text-align: center;
+    font-size: 23px;
+    padding-top: 6px;
+    letter-spacing: 0.5px;
+}
+.LineText3Tag3{
+    color: #8d8d8d;
+    background-color: #e4e4e4;
+    width: 326px;
+    height: 46px;
+    position: absolute;
+    left: 0px;
+    top: 330px;
+    text-align: center;
+    font-size: 23px;
+    padding-top: 6px;
+    letter-spacing: 0.5px;
+}
+.LineText4Tag3{
+    color: #8d8d8d;
+    background-color: #f1f1f1;
+    width: 326px;
+    height: 46px;
+    position: absolute;
+    left: 0px;
+    top: 375px;
+    text-align: center;
+    font-size: 23px;
+    padding-top: 6px;
+    letter-spacing: 0.5px;
+}
+.button{
+    background-color: #1ABC9C;
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 15px;
+    margin-top: 0;
+    width: 125px;
+    height: 40px;
+    position: relative;
+    bottom: -390px;
+    left: 100px;
+    border-radius: 10px;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    padding-top: 2px;
+}
+.ReversColor{
+    background-color: white;
+    color: #1ABC9C;
+}

@@ -1,0 +1,67 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    margin-left: 192px;
+    margin-right: 192px;
+    margin-top: 65px;
+    position: relative;
+}
+.footerLogo{
+    color: grey;
+    margin-left: 240px;
+    font-size: 20px;
+    position: absolute;
+    bottom: 2px;
+    right: 100px;
+}
+.footerLogo2{
+    color: gray;
+    font-weight: bold;
+}
+.textInFooter{
+    color: gray;
+    margin-left: 65px;
+    letter-spacing: 1px;
+}
+.footerPictures{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 2px;
+    right: 300px;
+}
+.fr{
+    background-image: url("../images/flickr.png");
+    display: block;
+    height: 35px;
+    width: 35px;
+    background-repeat: no-repeat;
+
+}
+.v{
+    background-image: url("../images/vimeo.png");
+    display: block;
+    height: 35px;
+    width: 35px;
+    background-repeat: no-repeat;
+     margin-left: 2px;
+    margin-right: 2px;
+}
+.red{
+    background-image: url("../images/pinterest.png");
+    display: block;
+    height: 35px;
+    width: 35px;
+    background-repeat: no-repeat;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+.twit{
+    background-image: url("../images/twitter.png");
+    display: block;
+    height: 35px;
+    width: 35px;
+    background-repeat: no-repeat;
+    margin-right: 2px;
+    margin-left: 2px;
+}

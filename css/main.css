@@ -1,0 +1,132 @@
+/* 1. rozwijana lista*/
+.MainList{
+    background-color: black;
+    list-style: none;
+    width: 120px;
+    position: absolute;
+    top: 10px;
+    left: 820px;
+    height: 97px;
+    display: flex;
+    flex-direction: row;
+}
+
+#triangle {
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 9px solid black;
+    position: absolute;
+    left: calc(50% - 14px);
+    top: -9px;
+    z-index: 10
+}
+
+.DropList{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin-left: 12px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.DropListLine{
+    margin-left: 0;
+}
+/* 2. główny container*/
+.WrapperMain {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 192px;
+    margin-right: 192px;
+}
+/* 3. pierwsza część strony*/
+.Background{
+    background:linear-gradient(to bottom, white, #f6f6f6, #d3d2da);
+}
+.FirstSection{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+
+}
+.SectionTwo{
+    display: flex;
+    flex-direction: row;
+    height: 504px;
+    width: 400px;
+    position: relative;
+    margin: 0;
+}
+.arrow{
+    position: absolute;
+    left: 75px;
+    top: 215px;
+    color:  #1ABC9C;
+    font-size:72px;
+    font-weight:100;
+
+}
+.arrow1{
+    position: absolute;
+    left: 1080px;
+    top: 215px;
+    color:  #1ABC9C;
+    font-size:72px;
+    font-weight:100;
+}
+.FirstImage{
+    background-image: url("../images/black_chair.png");
+    height: 100%;
+    width: 590px;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 30px;
+    bottom: -70px;
+}
+.FirstText{
+    position: absolute;
+    left: 516px;
+    bottom: 222px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+.HeaderOne{
+    font-size: 40px;
+}
+.HeaderOne .logo2{
+    color:  #1ABC9C;
+    font-weight: 700;
+}
+.TextBelowHeaderOne{
+    font-size: 15px;
+    padding-top: 14px;
+    position: relative;
+    bottom: -14px;
+    text-align: center;
+    line-height: 22px;
+    letter-spacing: 0.1px;
+}
+.Button{
+    position: absolute;
+    bottom: -94px;
+    background-color: #1ABC9C;
+    left: 124px;
+    width: 264px;
+    height: 52px;
+    border-radius: 10px;
+    font-size: 25px;
+    padding-left: 8px;
+    padding-top: 3px;
+    color: white;
+    letter-spacing: -1px;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}

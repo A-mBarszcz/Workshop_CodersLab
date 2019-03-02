@@ -1,0 +1,115 @@
+.FourthSection{
+    margin: 0;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.Contact{
+    margin-left: 75px;
+    padding-top: 6px;
+    margin-bottom: 50px;
+}
+.UnderlineFourthSection{
+    font-weight: 600;
+    color: grey;
+    border-bottom: 8px solid #1ABC9C;
+    width: 320px;
+    float: left;
+    padding-top: 20px;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+.form{
+    margin: 0;
+    background-color: white;
+
+}
+.form .input-wrapper input {
+    display: inline-block;
+    width: 634px;
+    height: 65px;
+    font-size: 30px;
+    letter-spacing: 1px;
+    padding: 10px;
+    border: solid 1px #1ABC9C;
+    margin-bottom: 28px;
+    margin-left: 75px;
+    }
+#name{
+    color: #c9c9c9;
+  }
+.input-wrapper2 input{
+    display: inline-block;
+    width: 634px;
+    height: 190px;
+    font-size: 30px;
+    letter-spacing: 1px;
+    padding: 10px;
+    border: solid 1px #1ABC9C;
+    margin-bottom: 28px;
+    margin-left: 75px;
+}
+.FourthSectionRigthSide{
+    margin-right: 90px;
+    margin-left: 0;
+    position: relative;
+}
+.FormAndImage{
+    display: flex;
+    flex-direction: row;
+
+    margin-left: 0;
+    margin-right: 0;
+}
+.FourthSectionImage{
+    background-image: url("../images/red_chair.png");
+    display: block;
+    margin-left: 70px;
+    margin-right: 0;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 210px;
+    position: absolute;
+    top: -30px
+
+
+}
+.okAndTextOfAgreement{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 215px;
+    left: 55px;
+
+
+}
+.okSign{
+    background-image: url("../images/form_ok.jpg");
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    border: solid 1px #1ABC9C;
+    background-size: contain;
+    background-position-y: 5px;
+}
+.textOfAgreement{
+    font-size: 20px;
+    padding-right: 20px;
+    color: lightgray;
+    margin-left: 15px;
+}
+.lastButton{
+    background-color: #1ABC9C;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    width: 342px;
+    height: 70px;
+    position: absolute;
+    top: 300px;
+    left: 56px;
+    border-radius: 10px;
+    font-weight: 700;
+    padding-top: 17px;
+}
